@@ -1,0 +1,44 @@
+.body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+.body .div-button-up {
+  outline: none;
+  position: fixed;
+  z-index: 99998;
+  bottom: 0;
+  right: 0;
+}
+.body .div-button-up .button-up {
+  outline: none;
+  text-decoration: none;
+  background: #0d6efd;
+  border: none;
+  border-radius: 100%;
+  margin: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+.body .div-button-up .button-up:hover {
+  background: #0d6dfdc9;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth; /* Ativa a rolagem suave */
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(50px); /* Efeito de deslizamento de baixo para cima */
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(
+    0
+  ); /* Reverte a transformação, fazendo com que o item fique no lugar */
+}

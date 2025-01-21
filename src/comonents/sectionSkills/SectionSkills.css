@@ -1,0 +1,30 @@
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.section-skills h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(69, 80, 91);
+}
+.section-skills .skills {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  transition: transform 1s ease;
+  width: 100%;
+}
+.section-skills .skills img:hover {
+  cursor: pointer;
+}
+.section-skills .skills img:hover {
+  transition: transform 1s ease;
+  transform: scale(1.2);
+}

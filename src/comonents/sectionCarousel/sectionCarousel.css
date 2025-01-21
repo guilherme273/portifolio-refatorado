@@ -1,0 +1,44 @@
+.div-carousel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cards-carousel {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 5rem;
+  justify-content: flex-start;
+  width: 90%;
+}
+
+.cards-carousel::-webkit-scrollbar {
+  display: none;
+}
+.cards-carousel .div-content-card-carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.buttons button {
+  background-color: transparent;
+  margin: none;
+  border: none;
+  cursor: pointer;
+  color: #0d6efd;
+}
+.buttons button:hover {
+  opacity: 0.5;
+}
