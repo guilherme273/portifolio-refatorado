@@ -1,0 +1,7 @@
+.section-footer {
+  background-color: #45505b1e;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

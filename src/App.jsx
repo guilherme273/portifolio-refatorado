@@ -9,6 +9,9 @@ import SectionExperiences from "./comonents/sectionExperiences/sectionExperience
 import { useEffect } from "react";
 import Certificates from "./comonents/sectionCertificates/Certificates";
 import SectionCarousel from "./comonents/sectionCarousel/sectionCaroucel";
+import SectionContact from "./comonents/sectionContact/SectionContact";
+import SectionFooter from "./comonents/sectionFooter/SectionFooter";
+// import ViewPdf from "./comonents/viewPdf/ViewPdf";
 
 function App() {
   const scrollToTop = () => {
@@ -49,6 +52,10 @@ function App() {
         <SectionExperiences />
         <Certificates />
         <SectionCarousel />
+        <SectionContact />
+        <SectionFooter />
+        {/* <ViewPdf /> */}
+
         <div className="div-button-up">
           <button onClick={scrollToTop} className="button-up">
             <ArrowUp color="aliceblue" size={30} />

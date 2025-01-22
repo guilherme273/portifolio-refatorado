@@ -1,8 +1,24 @@
-.cards-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px;
+.section-certificates {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.section-certificates .cards-certificates {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.h2-certificates {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(69, 80, 91);
 }
 
 .card {
@@ -10,8 +26,10 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   transition: transform 0.3s, box-shadow 0.3s;
+  width: 290px;
+  word-wrap: break-word;
 }
 
 .card:hover {

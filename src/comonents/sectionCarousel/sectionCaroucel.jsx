@@ -15,7 +15,7 @@ function SectionCarousel() {
   };
   return (
     <div className="div-carousel">
-      <h2>titulo</h2>
+      <h2>Projetos</h2>
       <div className="cards-carousel" ref={cards}>
         <div className="div-content-card-carousel">dasdassd</div>
         <div className="div-content-card-carousel">dasdassd</div>

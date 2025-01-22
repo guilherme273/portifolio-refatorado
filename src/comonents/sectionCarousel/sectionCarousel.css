@@ -3,6 +3,12 @@
   align-items: center;
   flex-direction: column;
   gap: 1rem;
+  margin-top: 5rem;
+}
+.div-carousel h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(69, 80, 91);
 }
 .cards-carousel {
   display: flex;
@@ -11,7 +17,7 @@
   scroll-behavior: smooth;
   gap: 5rem;
   justify-content: flex-start;
-  width: 90%;
+  width: 88%;
 }
 
 .cards-carousel::-webkit-scrollbar {
