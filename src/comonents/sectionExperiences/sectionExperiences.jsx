@@ -2,10 +2,11 @@ import "./sectionExperiencesStyle.css";
 function sectionExperiences() {
   return (
     <>
-      <div className="cent">
+      <div id="academyc-formation" className="cent fade-in">
         <section className="section-timeline">
           <div className="time-left">
             <h2>Formação</h2>
+
             <div className="timeline">
               <div className="timeline-item">
                 <div className="timeline-point"></div>

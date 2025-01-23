@@ -1,10 +1,14 @@
 import { ChevronRight } from "lucide-react";
 import "./SectionAboutStyle.css";
+import Underline from "../underline/underline";
 function SectionAbout() {
   return (
     <>
       <section id="section-about" className="section-about fade-in">
-        <h2>Sobre</h2>
+        <div>
+          <h2>Sobre</h2>
+          <Underline />
+        </div>
         <div className="about">
           <img src="/public/img/profile-img-_3_.png" alt="" />
           <div className="content-about">

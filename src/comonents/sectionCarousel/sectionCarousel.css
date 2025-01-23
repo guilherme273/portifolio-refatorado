@@ -5,7 +5,7 @@
   gap: 1rem;
   margin-top: 5rem;
 }
-.div-carousel h2 {
+.div-carousel div h2 {
   font-size: 30px;
   font-weight: bold;
   color: rgba(69, 80, 91);
@@ -15,9 +15,13 @@
   flex-direction: row;
   overflow-x: auto;
   scroll-behavior: smooth;
-  gap: 5rem;
-  justify-content: flex-start;
-  width: 88%;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+.cards-carousel > * {
+  flex: 0 0 100%; /* Cada item ocupará 100% da largura do carrossel */
 }
 
 .cards-carousel::-webkit-scrollbar {
@@ -46,5 +50,5 @@
   color: #0d6efd;
 }
 .buttons button:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }

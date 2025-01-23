@@ -1,9 +1,13 @@
+import Underline from "../underline/underline";
 import "./CertificatesStyle.css";
 function Certificates() {
   return (
     <>
-      <section className="section-certificates">
-        <h2 className="h2-certificates">Certificados</h2>
+      <section className="section-certificates fade-in">
+        <div>
+          <h2 className="h2-certificates">Certificados</h2>
+          <Underline />
+        </div>
         <div className="cards-certificates">
           <div className="card">
             <div className="icon-certificate">

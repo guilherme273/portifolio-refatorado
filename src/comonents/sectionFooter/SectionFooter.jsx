@@ -3,11 +3,11 @@ import "./SectionFooter.css";
 function SectionFooter() {
   return (
     <>
-      <section className="section-footer">
+      <section className="section-footer fade-in">
         <p>
-          "O sucesso não é a chave para a felicidade. A felicidade é a chave
-          para o sucesso. Se você ama o que faz, você vai ter sucesso." - Albert
-          Schweitzer
+          &ldquo;O sucesso não é a chave para a felicidade. A felicidade é a
+          chave para o sucesso. Se você ama o que faz, você vai ter
+          sucesso.&rdquo; - Albert Schweitzer
         </p>
       </section>
     </>

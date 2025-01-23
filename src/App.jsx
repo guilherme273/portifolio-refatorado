@@ -7,7 +7,7 @@ import SectionHero from "./comonents/sectionHero/SectionHero";
 import SectionSkills from "./comonents/sectionSkills/SectionSkills";
 import SectionExperiences from "./comonents/sectionExperiences/sectionExperiences";
 import { useEffect } from "react";
-import Certificates from "./comonents/sectionCertificates/Certificates";
+// import Certificates from "./comonents/sectionCertificates/Certificates";
 import SectionCarousel from "./comonents/sectionCarousel/sectionCaroucel";
 import SectionContact from "./comonents/sectionContact/SectionContact";
 import SectionFooter from "./comonents/sectionFooter/SectionFooter";
@@ -50,7 +50,7 @@ function App() {
         <SectionAbout />
         <SectionSkills />
         <SectionExperiences />
-        <Certificates />
+        {/* <Certificates /> */}
         <SectionCarousel />
         <SectionContact />
         <SectionFooter />

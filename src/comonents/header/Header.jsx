@@ -25,20 +25,20 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#academyc-formation">
               <GraduationCap className="icon" size={25} />
               <span>Formação Acadêmica</span>
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="#projects">
               <BookText className="icon" size={25} />
               <span>Projetos</span>
             </a>
           </li>
 
           <li>
-            <a href="#">
+            <a href="#contact">
               <Mail className="icon" size={25} />
               <span>Contato</span>
             </a>

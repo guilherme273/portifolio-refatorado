@@ -1,9 +1,13 @@
+import Underline from "../underline/underline";
 import "./SectionSkills.css";
 function SectionSkills() {
   return (
     <>
       <section className="section-skills fade-in">
-        <h2>Habilidades</h2>
+        <div>
+          <h2>Habilidades</h2>
+          <Underline />
+        </div>
         <div className="skills">
           <img
             src="/public/img/prog-nodejs01_icon-icons.com_50781.png"

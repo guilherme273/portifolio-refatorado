@@ -21,9 +21,7 @@
   transition: transform 1s ease;
   width: 100%;
 }
-.section-skills .skills img:hover {
-  cursor: pointer;
-}
+
 .section-skills .skills img:hover {
   transition: transform 1s ease;
   transform: scale(1.2);
