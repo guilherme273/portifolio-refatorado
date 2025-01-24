@@ -59,27 +59,60 @@
   font-weight: bold;
   font-size: 15px;
 }
+.section-contact .contact .form-contact form .disabled {
+  outline: none;
+  background: #0d6dfd2f;
+  border: 0.5px solid #0d6dfd34;
+  padding: 7px;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.section-contact .contact .form-contact form .disabled:hover {
+  outline: none;
+  background: #0d6dfd2f;
+  border: 0.5px solid #0d6dfd34;
+  padding: 7px;
+  width: 50%;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: no-drop;
+}
+
 .section-contact .contact .form-contact form .twoitens {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
-.section-contact .contact .form-contact form .twoitens input {
+.section-contact .contact .form-contact form .twoitens div {
+  width: 47%;
+}
+.section-contact .contact .form-contact form .twoitens div input {
   padding: 10px;
   border-radius: 5px;
-  width: 47%;
+  width: 100%;
   border: 0.5px solid #0d6dfd8f;
   outline: none;
 }
-.section-contact .contact .form-contact form input {
+.section-contact .contact .form-contact form .div-motivo {
+  width: 100%;
+}
+.section-contact .contact .form-contact form .div-motivo input {
   padding: 10px;
   border-radius: 5px;
   border: 0.5px solid #0d6dfd8f;
   outline: none;
   width: 100%;
 }
-.section-contact .contact .form-contact form textarea {
+.section-contact .contact .form-contact form .div-descricao {
+  width: 100%;
+}
+.section-contact .contact .form-contact form .div-descricao textarea {
   padding: 10px;
   border-radius: 5px;
   border: 0.5px solid #0d6dfd8f;
@@ -117,4 +150,18 @@
   background-color: #0d6dfd;
 
   color: white;
+}
+.section-contact .contact .form-contact form .twoitens div .error {
+  border: 0.5px solid rgba(255, 0, 0, 0.445);
+}
+.section-contact .contact .form-contact form .div-descricao .error {
+  border: 0.5px solid rgba(255, 0, 0, 0.445);
+}
+.section-contact .contact .form-contact form .div-motivo .error {
+  border: 0.5px solid rgba(255, 0, 0, 0.445);
+}
+
+.p-error {
+  font-size: 11px;
+  color: rgba(255, 0, 0, 0.534);
 }
