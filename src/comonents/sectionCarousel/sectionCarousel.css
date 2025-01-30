@@ -1,54 +1,86 @@
 .div-carousel {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  gap: 0.5rem;
   margin-top: 5rem;
+  padding: 0 1rem;
+  width: 100%;
 }
-.div-carousel div h2 {
-  font-size: 30px;
+
+.header-carousel {
+  text-align: center;
+}
+
+.header-carousel h2 {
+  font-size: 2rem;
   font-weight: bold;
-  color: rgba(69, 80, 91);
+  color: #454a5b;
 }
+
 .cards-carousel {
   display: flex;
-  flex-direction: row;
+  gap: 0.5rem;
   overflow-x: auto;
   scroll-behavior: smooth;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 100%;
-}
-.cards-carousel > * {
-  flex: 0 0 100%; /* Cada item ocupará 100% da largura do carrossel */
+  padding: 1rem 0;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .cards-carousel::-webkit-scrollbar {
   display: none;
 }
-.cards-carousel .div-content-card-carousel {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-  position: relative;
+
+.cards-carousel > * {
+  flex: 0 0 300px; /* Define largura dos cards */
+  height: 400px; /* Altura dos cards */
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cards-carousel > *:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .buttons {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  margin-bottom: 0.5rem;
 }
 
-.buttons button {
-  background-color: transparent;
-  margin: none;
+.btn-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d6efd;
   border: none;
+  border-radius: 50%;
+  color: #fff;
   cursor: pointer;
-  color: #0d6efd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.buttons button:hover {
-  opacity: 0.8;
+
+.btn-nav:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .cards-carousel > * {
+    flex: 0 0 80%;
+  }
+
+  .btn-nav {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-carousel h2 {
+    font-size: 1.5rem;
+  }
 }

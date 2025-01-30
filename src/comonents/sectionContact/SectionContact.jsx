@@ -13,7 +13,7 @@ function SectionContact() {
   } = useForm();
 
   const submit = async (data) => {
-    // setIsDisabled(true);
+    setIsDisabled(true);
     const token = grecaptcha.getResponse();
 
     const jsonOBJ = {

@@ -1,59 +1,113 @@
+.section-projects {
+  width: 400px;
+  height: auto; /* Ajusta para altura automática para suportar conteúdos variáveis */
+  display: flex;
+  justify-content: center;
+}
+
 .section-projects .card-project {
-  width: 650px;
-  height: 500px;
+  width: 350px;
   padding: 10px;
   display: flex;
   flex-direction: column;
-
   margin: 0;
   border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 .section-projects .card-project .image-project {
-  height: 60%;
-  /* background-color: rgb(0, 0, 0); */
+  height: 200px; /* Tamanho fixo para a imagem */
   border-radius: 10px 10px 0 0;
 }
+
 .section-projects .card-project .content-project {
-  height: 40%;
   background-color: #45505b1e;
   border-radius: 0 0 10px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 1rem;
+  justify-content: space-between; /* Ajusta para espaço entre os elementos */
+  gap: 0.5rem;
   align-items: center;
+  padding: 10px;
+  height: 200px; /* Limita a altura da área de conteúdo */
 }
+
 .section-projects .card-project .content-project .h2-project {
-  font-size: 30px;
+  font-size: 18px;
   font-weight: bold;
   color: rgb(0, 0, 0);
   text-align: center;
+  margin-bottom: -5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; /* Evita quebra de linha */
+  width: 100%; /* Adapta ao tamanho do card */
 }
+
 .section-projects .card-project .content-project .p-project {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
   color: rgb(31, 32, 32);
   padding: 10px;
+  text-align: justify;
+  overflow-y: auto; /* Permite scroll vertical apenas no parágrafo */
+  max-height: 60%; /* Limita a altura do parágrafo */
+  width: 100%;
+
+  /* Estilização da barra de rolagem */
+  scrollbar-width: thin; /* Para Firefox */
+  scrollbar-color: #0d6dfd #f1f1f1; /* Cor da barra e do fundo da barra de rolagem */
+}
+
+/* Estilização do scroll no Chrome/Safari/Edge */
+.section-projects .card-project .content-project .p-project::-webkit-scrollbar {
+  width: 8px; /* Largura da barra de rolagem */
+}
+
+.section-projects
+  .card-project
+  .content-project
+  .p-project::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Cor de fundo da pista da barra de rolagem */
+  border-radius: 10px; /* Borda arredondada da pista */
+}
+
+.section-projects
+  .card-project
+  .content-project
+  .p-project::-webkit-scrollbar-thumb {
+  background-color: #0d6dfd; /* Cor da parte que o usuário arrasta */
+  border-radius: 10px; /* Borda arredondada do "polegar" da barra */
+  border: 2px solid #f1f1f1; /* Borda da parte do "polegar" */
+}
+
+.section-projects
+  .card-project
+  .content-project
+  .p-project::-webkit-scrollbar-thumb:hover {
+  background-color: #0d6dfde7; /* Cor do "polegar" quando hover */
 }
 
 .section-projects .card-project .content-project .button-project {
   outline: none;
-  background: #0d6dfdd0;
+  background: #0d6dfd;
+
   border: 0.5px solid #0d6dfd8f;
-  padding: 5px;
-  width: 50%;
+  padding: 1px;
+  width: 80%;
   border-radius: 10px;
   color: white;
   cursor: pointer;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
 }
+
 .section-projects .card-project .content-project .button-project:hover {
-  background: #0d6dfde7;
+  background: #0d6dfdd0;
   border: 0.5px solid #0d6dfd8f;
 }
