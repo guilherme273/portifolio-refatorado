@@ -3,6 +3,8 @@ import { useForm } from "react-hook-form";
 import Underline from "../underline/underline";
 import "./SectionContactStyle.css";
 import { useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function SectionContact() {
   const [isDisabled, setIsDisabled] = useState(false);
 
@@ -20,7 +22,7 @@ function SectionContact() {
       ...data,
       "g-recaptcha-response": token,
     };
-    const json = await JSON.stringify(jsonOBJ);
+    const json = JSON.stringify(jsonOBJ);
 
     const response = await fetch("http://localhost:80/contact", {
       method: "POST",
@@ -30,11 +32,34 @@ function SectionContact() {
       body: json,
     });
 
+    const responseData = await response.json();
+
     if (response.ok) {
-      alert("deu,bom");
+      toast(responseData.message, {
+        autoClose: 5000, // Duração do toast (5 segundos)
+        hideProgressBar: true, // Mostrar barra de progresso
+        closeButton: true, // Mostrar botão de fechar
+        pauseOnHover: true, // Pausar o tempo quando o mouse estiver sobre o toast
+        style: {
+          backgroundColor: "#28a745", // Cor de fundo verde (para sucesso)
+          color: "white", // Cor do texto
+          fontWeight: "bold", // Texto em negrito
+        },
+      });
     } else {
-      alert("deu ruim");
+      toast(responseData.message, {
+        autoClose: 5000, // Duração do toast (5 segundos)
+        hideProgressBar: true, // Mostrar barra de progresso
+        closeButton: true, // Mostrar botão de fechar
+        pauseOnHover: true, // Pausar o tempo quando o mouse estiver sobre o toast
+        style: {
+          backgroundColor: "#dc3545", // Cor de fundo vermelha (para erro)
+          color: "white", // Cor do texto
+          fontWeight: "bold", // Texto em negrito
+        },
+      });
     }
+
     setIsDisabled(false);
   };
 
@@ -103,6 +128,7 @@ function SectionContact() {
                     <input
                       type="text"
                       placeholder="Seu Nome"
+                      maxLength={40}
                       {...register("nome", { required: true })}
                       className={`input ${
                         errors?.nome?.type === "required" ? "error" : ""
@@ -116,13 +142,14 @@ function SectionContact() {
                     <input
                       type="text"
                       placeholder="Email, número de telefone ou outro contato."
+                      maxLength={90}
                       {...register("contato", { required: true })}
                       className={`input ${
                         errors?.contato?.type === "required" ? "error" : ""
                       }`}
                     />
                     {errors?.contato?.type === "required" && (
-                      <p className="p-error">Meio de contatp obrigatório</p>
+                      <p className="p-error">Meio de contato obrigatório</p>
                     )}
                   </div>
                 </div>
@@ -131,6 +158,7 @@ function SectionContact() {
                   <input
                     type="text"
                     placeholder="Motivo"
+                    maxLength={90}
                     {...register("motivo", { required: true })}
                     className={`input ${
                       errors?.motivo?.type === "required" ? "error" : ""
@@ -144,6 +172,7 @@ function SectionContact() {
                 <div className="div-descricao">
                   <textarea
                     placeholder="Descrição"
+                    maxLength={490}
                     name=""
                     rows={5}
                     id=""

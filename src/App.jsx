@@ -1,5 +1,7 @@
 import { ArrowUp } from "lucide-react";
 import "./App.css";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
 
 import Header from "./comonents/header/Header";
 import SectionAbout from "./comonents/sectionAbout/SectionAbout";
@@ -61,6 +63,7 @@ function App() {
             <ArrowUp color="aliceblue" size={30} />
           </button>
         </div>
+        <ToastContainer />
       </section>
     </>
   );
