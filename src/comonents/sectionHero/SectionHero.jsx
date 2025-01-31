@@ -31,7 +31,7 @@ function SectionHero() {
     <section id="hero" className="hero fade-in">
       <div className="div-hero">
         <h1>Guilherme Feitosa Cunha</h1>
-        <p>
+        <p className="typed-p">
           <span className="typed">Desenvolvimento Web</span>
           <span className="typed-cursor typed-cursor--blink" aria-hidden="true">
             |

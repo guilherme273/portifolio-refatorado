@@ -28,14 +28,14 @@
 .section-timeline .time-left h2 {
   font-size: 25px;
   font-weight: bold;
-  color: rgba(69, 80, 91);
+  color: white;
   margin-left: 50px;
   margin-bottom: 15px;
 }
 .section-timeline .time-rigth h2 {
   font-size: 25px;
   font-weight: bold;
-  color: rgba(69, 80, 91);
+  color: white;
   margin-left: 50px;
   margin-bottom: 15px;
 }
@@ -50,7 +50,7 @@
   content: "";
   position: absolute;
   top: 10px;
-  left: 27.7px;
+  left: 35px;
   width: 2px;
   height: 90%;
   background: #0d6efd;
@@ -68,20 +68,26 @@
   height: 15px;
   border: 3px solid #0d6efd;
   border-radius: 50%;
+  background-color: #0d6efd;
   position: absolute;
-  left: 27.7px;
+  left: 35px;
   top: 0;
 }
 
 .timeline-content {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
+  background-color: #494b4d;
+  border-radius: 20px;
+  padding: 10px;
   margin-left: 60px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.time-line-back-g {
+  background-color: #1e1e1f;
+  border: 1px solid #0d6dfdd2;
+  padding: 15px;
+  border-radius: 20px;
+}
 .timeline-content h3 {
   margin: 0 0 10px 0;
   font-size: 18px;
@@ -90,9 +96,9 @@
 
 .timeline-date {
   font-size: 14px;
-  color: #686868;
+  color: white;
   margin-bottom: 10px;
-  background-color: #e9e9e9;
+  background-color: #727477;
   padding: 3px;
   width: fit-content;
   border-radius: 5px;
@@ -100,11 +106,11 @@
 
 .timeline-institution {
   font-weight: bold;
-  color: #555;
+  color: white;
   margin-bottom: 10px;
 }
 
 .timeline-description {
   font-size: 14px;
-  color: #666;
+  color: white;
 }

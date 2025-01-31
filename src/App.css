@@ -1,6 +1,10 @@
 .body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  background-color: black;
+}
+.body .section-content-all {
+  background-color: #272829;
 }
 .body .div-button-up {
   outline: none;

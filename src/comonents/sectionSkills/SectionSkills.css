@@ -10,7 +10,7 @@
 .section-skills h2 {
   font-size: 30px;
   font-weight: bold;
-  color: rgba(69, 80, 91);
+  color: white;
 }
 .section-skills .skills {
   display: flex;

@@ -187,12 +187,11 @@ function SectionContact() {
                   )}
                 </div>
 
-                <div className="recaptcha-container">
-                  <div
-                    className="g-recaptcha"
-                    data-sitekey="6LeKpMEqAAAAAMe7gt9ZuZynGDCXqNQBg4swj9lD"
-                  ></div>
-                </div>
+                <div
+                  className="g-recaptcha"
+                  data-sitekey="6LeKpMEqAAAAAMe7gt9ZuZynGDCXqNQBg4swj9lD"
+                  data-theme="dark"
+                ></div>
 
                 <button
                   disabled={isDisabled}

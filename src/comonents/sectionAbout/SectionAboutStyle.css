@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
   gap: 1rem;
 }
 .section-about div h2 {
   font-size: 30px;
   font-weight: bold;
-  color: rgba(69, 80, 91);
+  margin-top: 1rem;
+  color: white;
 }
 
 .section-about .about {
@@ -31,11 +31,7 @@
   justify-content: center;
   align-items: center;
 }
-.section-about .about .content-about h3 {
-  font-size: 25px;
-  font-weight: bold;
-  color: rgba(69, 80, 91);
-}
+
 .section-about .about .content-about ul {
   list-style-type: none;
   padding: 0;
@@ -66,4 +62,14 @@
 .section-about .about .content-about p {
   margin: 1rem;
   text-align: justify;
+}
+
+.strong-about {
+  color: rgb(219, 219, 219);
+}
+.span-about {
+  color: rgb(219, 219, 219);
+}
+.paragrafo-about {
+  color: rgb(219, 219, 219);
 }

@@ -27,6 +27,11 @@
 
   padding: 0;
 }
+.header .navbar ul li {
+  display: flex;
+
+  padding: 0;
+}
 .header .navbar ul li a {
   text-decoration: none;
   padding: 15px;

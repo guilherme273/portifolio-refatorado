@@ -49,14 +49,16 @@ function App() {
       <section className="body">
         <Header />
         <SectionHero />
-        <SectionAbout />
-        <SectionSkills />
-        <SectionExperiences />
-        {/* <Certificates /> */}
-        <SectionCarousel />
-        <SectionContact />
-        <SectionFooter />
-        {/* <ViewPdf /> */}
+        <div className="section-content-all">
+          <SectionAbout />
+          <SectionSkills />
+          <SectionExperiences />
+          {/* <Certificates /> */}
+          <SectionCarousel />
+          <SectionContact />
+          <SectionFooter />
+          {/* <ViewPdf /> */}
+        </div>
 
         <div className="div-button-up">
           <button onClick={scrollToTop} className="button-up">
