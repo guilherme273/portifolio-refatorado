@@ -1,4 +1,5 @@
-import Underline from "../underline/underline";
+import Underline from "../underline/Underline.jsx";
+
 import "./SectionSkills.css";
 function SectionSkills() {
   return (
