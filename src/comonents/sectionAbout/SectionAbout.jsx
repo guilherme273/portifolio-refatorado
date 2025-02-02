@@ -1,6 +1,6 @@
 import { ChevronRight } from "lucide-react";
 import "./SectionAboutStyle.css";
-import Underline from "../underline/underline";
+import Underline from "../underline/Underline.jsx";
 
 function SectionAbout() {
   return (
