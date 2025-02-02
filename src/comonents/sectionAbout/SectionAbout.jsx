@@ -11,7 +11,7 @@ function SectionAbout() {
           <Underline />
         </div>
         <div className="about">
-          <img src="/public/img/profile-img-_3_.png" alt="" />
+          <img src="/img/profile-img-_3_.png" alt="" />
           <div className="content-about">
             <ul>
               <div className="left-list">

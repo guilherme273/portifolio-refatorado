@@ -10,15 +10,12 @@ function SectionSkills() {
           <Underline />
         </div>
         <div className="skills">
-          <img
-            src="/public/img/prog-nodejs01_icon-icons.com_50781.png"
-            alt=""
-          />
-          <img src="/public/img/OIP (1) (2).png" alt="" />
-          <img src="/public/img/php.png" alt="" />
-          <img src="/public/img/js.png" alt="" />
-          <img src="/public/img/html-5.png" alt="" />
-          <img src="/public/img/css-3 (4).png" alt="" />
+          <img src="/img/prog-nodejs01_icon-icons.com_50781.png" alt="" />
+          <img src="/img/OIP (1) (2).png" alt="" />
+          <img src="/img/php.png" alt="" />
+          <img src="/img/js.png" alt="" />
+          <img src="/img/html-5.png" alt="" />
+          <img src="/img/css-3 (4).png" alt="" />
         </div>
       </section>
     </>
