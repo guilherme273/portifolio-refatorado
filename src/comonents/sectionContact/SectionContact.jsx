@@ -1,6 +1,6 @@
 import { AtSign, Linkedin, Smartphone } from "lucide-react";
 import { useForm } from "react-hook-form";
-import Underline from "../underline/underline";
+import Underline from "../underline/Underline.jsx";
 import "./SectionContactStyle.css";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";

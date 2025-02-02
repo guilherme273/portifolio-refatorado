@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import "./sectionCarousel.css";
 import { useRef } from "react";
-import Underline from "../underline/underline";
+import Underline from "../underline/Underline.jsx";
 import Project from "../projects/Projects";
 
 function SectionCarousel() {
