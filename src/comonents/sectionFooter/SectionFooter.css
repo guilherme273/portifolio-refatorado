@@ -1,7 +1,13 @@
 .section-footer {
   background-color: #1e1e1f;
-  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.1rem; /* Ajuste o tamanho conforme necessário */
+  letter-spacing: 1px; /* Adiciona um pequeno espaçamento */
+  font-weight: normal;
+  color: rgb(219, 219, 219); /* Cor suave para não pesar no visual */
+  text-align: center;
   height: 100px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

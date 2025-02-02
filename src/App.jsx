@@ -11,7 +11,7 @@ import SectionExperiences from "./comonents/sectionExperiences/sectionExperience
 import { useEffect } from "react";
 // import Certificates from "./comonents/sectionCertificates/Certificates";
 import SectionCarousel from "./comonents/sectionCarousel/sectionCaroucel";
-// import SectionContact from "./comonents/sectionContact/SectionContact";
+import SectionContact from "./comonents/sectionContact/SectionContact";
 import SectionFooter from "./comonents/sectionFooter/SectionFooter";
 // import ViewPdf from "./comonents/viewPdf/ViewPdf";
 
@@ -55,14 +55,14 @@ function App() {
           <SectionExperiences />
           {/* <Certificates /> */}
           <SectionCarousel />
-          {/* <SectionContact /> */}
+          <SectionContact />
           <SectionFooter />
           {/* <ViewPdf /> */}
         </div>
 
         <div className="div-button-up">
           <button onClick={scrollToTop} className="button-up">
-            <ArrowUp color="aliceblue" size={30} />
+            <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} />
           </button>
         </div>
         <ToastContainer />

@@ -14,32 +14,36 @@ function Header() {
         <ul>
           <li>
             <a href="#hero">
-              <House className="icon" size={25} />
-              <span>Início</span>
+              <House strokeWidth={1} className="iconicon" size={25} />
+              <span>Home</span>
             </a>
           </li>
           <li>
             <a href="#section-about">
-              <EqualApproximately className="icon" size={25} />
+              <EqualApproximately
+                strokeWidth={1}
+                className="iconicon"
+                size={25}
+              />
               <span>Sobre</span>
             </a>
           </li>
           <li>
             <a href="#academyc-formation">
-              <GraduationCap className="icon" size={25} />
-              <span>Formação Acadêmica</span>
+              <GraduationCap strokeWidth={1} className="iconicon" size={25} />
+              <span>Formação / Experiências</span>
             </a>
           </li>
           <li>
             <a href="#projects">
-              <BookText className="icon" size={25} />
+              <BookText strokeWidth={1} className="iconicon" size={25} />
               <span>Projetos</span>
             </a>
           </li>
 
           <li>
             <a href="#contact">
-              <Mail className="icon" size={25} />
+              <Mail strokeWidth={1} className="iconicon" size={25} />
               <span>Contato</span>
             </a>
           </li>

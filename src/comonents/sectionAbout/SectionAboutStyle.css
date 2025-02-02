@@ -6,10 +6,12 @@
   gap: 1rem;
 }
 .section-about div h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
   margin-top: 1rem;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
 }
 
 .section-about .about {
@@ -60,16 +62,22 @@
 }
 
 .section-about .about .content-about p {
-  margin: 1rem;
-  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
 }
 
 .strong-about {
   color: rgb(219, 219, 219);
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 .span-about {
   color: rgb(219, 219, 219);
+  font-family: "Lato", sans-serif;
+  margin-left: 4px;
 }
 .paragrafo-about {
   color: rgb(219, 219, 219);
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
 }

@@ -34,7 +34,7 @@ function sectionExperiences() {
                 <div className="timeline-point"></div>
                 <div className="timeline-content">
                   <div className="time-line-back-g">
-                    <h3>Analista e Desenvolvedor</h3>
+                    <h3>ANALISTA E DESENVOLVEDOR</h3>
                     <p className="timeline-date">Set 2023 – Out 2023</p>
                     <p className="timeline-institution">Each Tecnologia</p>
                     <p className="timeline-description">
@@ -65,7 +65,7 @@ function sectionExperiences() {
                 <div className="timeline-point"></div>
                 <div className="timeline-content">
                   <div className="time-line-back-g">
-                    <h3>Desenvolvedor Web</h3>
+                    <h3>DESENVOLVEDOR WEB</h3>
                     <p className="timeline-date">Nov 2023 - Mar 2024</p>
                     <p className="timeline-institution">
                       BBTS - BB TECNOLOGIA E SERVIÇOS
@@ -89,7 +89,7 @@ function sectionExperiences() {
                 <div className="timeline-point"></div>
                 <div className="timeline-content">
                   <div className="time-line-back-g">
-                    <h3>Analista e Desenvolvedor</h3>
+                    <h3>ANALISTA E DESENVOLVEDOR</h3>
                     <p className="timeline-date">Jun 2024 - Jul 2024</p>
                     <p className="timeline-institution">Each Tecnologia</p>
                     <p className="timeline-description">

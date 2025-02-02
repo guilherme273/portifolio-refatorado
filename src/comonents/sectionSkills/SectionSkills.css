@@ -8,21 +8,39 @@
   margin-bottom: 5rem;
 }
 .section-skills h2 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: bold;
+  margin-top: 1rem;
   color: white;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
 }
 .section-skills .skills {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  gap: 6rem;
   justify-content: center;
   align-items: center;
   transition: transform 1s ease;
   width: 100%;
 }
 
-.section-skills .skills img:hover {
+.section-skills .skills .icon-and-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+.section-skills .skills .icon-and-p .icon-skill {
+  color: #0d6dfd;
+  font-size: 55px;
+}
+.section-skills .skills .icon-and-p:hover {
   transition: transform 0.5s ease;
   transform: scale(1.2);
+}
+.section-skills .skills .icon-and-p .p {
+  color: rgb(219, 219, 219);
+  font-family: "Lato", sans-serif;
 }

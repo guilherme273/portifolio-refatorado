@@ -1,6 +1,15 @@
-import Underline from "../underline/Underline.jsx";
-
 import "./SectionSkills.css";
+import Underline from "../underline/Underline.jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCss3Alt,
+  faHtml5,
+  faJs,
+  faNodeJs,
+  faPhp,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons"; // Importe o ícone que você deseja usar
+
 function SectionSkills() {
   return (
     <>
@@ -10,12 +19,31 @@ function SectionSkills() {
           <Underline />
         </div>
         <div className="skills">
-          <img src="/img/prog-nodejs01_icon-icons.com_50781.png" alt="" />
-          <img src="/img/OIP (1) (2).png" alt="" />
-          <img src="/img/php.png" alt="" />
-          <img src="/img/js.png" alt="" />
-          <img src="/img/html-5.png" alt="" />
-          <img src="/img/css-3 (4).png" alt="" />
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faReact} />
+            <p className="p">React</p>
+          </div>
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faNodeJs} />
+            <p className="p">NodeJS</p>
+          </div>
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faPhp} />
+            <p className="p">Php</p>
+          </div>
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faJs} />
+            <p className="p">Java Script</p>
+          </div>
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faHtml5} />
+            <p className="p">HTML</p>
+          </div>
+
+          <div className="icon-and-p">
+            <FontAwesomeIcon className="icon-skill" icon={faCss3Alt} />
+            <p className="p">CSS</p>
+          </div>
         </div>
       </section>
     </>

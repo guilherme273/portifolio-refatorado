@@ -1,3 +1,4 @@
+import { Eye } from "lucide-react";
 import "./PeojectsStyle.css";
 function Project({ proj }) {
   const backgroundimage = {
