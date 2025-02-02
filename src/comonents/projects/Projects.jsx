@@ -16,7 +16,10 @@ function Project({ proj }) {
             <h2 className="h2-project">{proj.title}</h2>
 
             <p className="p-project">{proj.description}</p>
-            <button className="button-project">Visitar Projeto</button>
+
+            <a className="button-project" href={proj.urlProject}>
+              Visitar Projeto
+            </a>
           </div>
         </div>
       </section>
