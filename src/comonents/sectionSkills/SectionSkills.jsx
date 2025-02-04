@@ -5,7 +5,7 @@ import {
   faCss3Alt,
   faHtml5,
   faJs,
-  faNodeJs,
+  faNode,
   faPhp,
   faReact,
 } from "@fortawesome/free-brands-svg-icons"; // Importe o ícone que você deseja usar
@@ -20,23 +20,23 @@ function SectionSkills() {
         </div>
         <div className="skills">
           <div className="icon-and-p">
-            <FontAwesomeIcon className="icon-skill" icon={faReact} />
+            <FontAwesomeIcon className="icon-skill react" icon={faReact} />
             <p className="p">React</p>
           </div>
           <div className="icon-and-p">
-            <FontAwesomeIcon className="icon-skill" icon={faNodeJs} />
+            <FontAwesomeIcon className="icon-skill node" icon={faNode} />
             <p className="p">NodeJS</p>
           </div>
           <div className="icon-and-p">
-            <FontAwesomeIcon className="icon-skill" icon={faPhp} />
+            <FontAwesomeIcon className="icon-skill php" icon={faPhp} />
             <p className="p">Php</p>
           </div>
           <div className="icon-and-p">
-            <FontAwesomeIcon className="icon-skill" icon={faJs} />
+            <FontAwesomeIcon className="icon-skill js" icon={faJs} />
             <p className="p">Java Script</p>
           </div>
           <div className="icon-and-p">
-            <FontAwesomeIcon className="icon-skill" icon={faHtml5} />
+            <FontAwesomeIcon className="icon-skill html" icon={faHtml5} />
             <p className="p">HTML</p>
           </div>
 

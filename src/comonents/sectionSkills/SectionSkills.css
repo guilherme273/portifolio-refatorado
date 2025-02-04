@@ -33,9 +33,31 @@
   transition: transform 0.5s ease;
 }
 .section-skills .skills .icon-and-p .icon-skill {
+  font-size: 60px;
   color: #0d6dfd;
-  font-size: 55px;
 }
+.section-skills .skills .icon-and-p .react {
+  color: #0d6dfd;
+}
+.section-skills .skills .icon-and-p .node {
+  color: black;
+}
+.section-skills .skills .icon-and-p .php {
+  color: black;
+  background-color: #4f5b93;
+  padding: 0px 7.5px 0px 7.5px; /* Ajuste o padding para dar um formato oval */
+  border-radius: 100%;
+}
+.section-skills .skills .icon-and-p .js {
+  color: #f7df1e;
+}
+.section-skills .skills .icon-and-p .html {
+  color: #e44d26;
+}
+.section-skills .skills .icon-and-p .css {
+  color: #1572b6;
+}
+
 .section-skills .skills .icon-and-p:hover {
   transition: transform 0.5s ease;
   transform: scale(1.2);

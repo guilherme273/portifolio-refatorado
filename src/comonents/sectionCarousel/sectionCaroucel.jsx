@@ -45,10 +45,10 @@ function SectionCarousel() {
 
       <div className="buttons">
         <button onClick={scrollLeft} className="btn-nav">
-          <ChevronLeft size={40} />
+          <ChevronLeft strokeWidth={1} size={40} />
         </button>
         <button onClick={scrollRight} className="btn-nav">
-          <ChevronRight size={40} />
+          <ChevronRight strokeWidth={1} size={40} />
         </button>
       </div>
     </div>

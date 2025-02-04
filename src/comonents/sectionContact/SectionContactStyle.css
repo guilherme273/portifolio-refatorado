@@ -41,9 +41,9 @@
 }
 .section-contact .contact .form-contact form .btn {
   outline: none;
-  background: transparent;
+  background: black;
   border: 1px solid #0d6dfd;
-  padding: 7px;
+  padding: 5px;
   width: 50%;
   border-radius: 10px;
   color: #0d6dfd;
