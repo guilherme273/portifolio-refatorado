@@ -189,7 +189,7 @@ function SectionContact() {
 
                 <div
                   className="g-recaptcha"
-                  data-sitekey="6LeKpMEqAAAAAMe7gt9ZuZynGDCXqNQBg4swj9lD"
+                  data-sitekey="6LeEO80qAAAAAA7NmTiDuVShcehdKk54q3IHTFLB"
                   data-theme="dark"
                 ></div>
 
