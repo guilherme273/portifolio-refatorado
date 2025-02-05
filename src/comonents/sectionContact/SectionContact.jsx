@@ -24,7 +24,7 @@ function SectionContact() {
     };
     const json = JSON.stringify(jsonOBJ);
 
-    const response = await fetch("http://mybackend.eco.br/contact", {
+    const response = await fetch("https://mybackend.eco.br/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
