@@ -69,3 +69,46 @@
 .header .navbar ul li a .icon {
   color: black;
 }
+
+@media (max-width: 319px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 15px;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para telas entre 481px e 768px */
+}
+
+/* Para telas grandes (769px até 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Estilos para telas entre 769px e 1024px */
+}

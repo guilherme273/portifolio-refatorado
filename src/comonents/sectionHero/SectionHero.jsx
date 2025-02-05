@@ -5,13 +5,7 @@ import { Facebook, Github, Instagram, Linkedin, Twitch } from "lucide-react";
 function SectionHero() {
   useEffect(() => {
     const options = {
-      strings: [
-        "Desenvolvimento Web",
-        "Front end",
-        "Back end",
-        "Disponível para Freelancer",
-        "Disponível para propostas de contratações",
-      ],
+      strings: ["Desenvolvimento Web", "Front end", "Back end"],
       typeSpeed: 90, // Velocidade de digitação
       backSpeed: 30, // Velocidade de apagamento
       backDelay: 1000, // Tempo de espera antes de apagar
@@ -38,10 +32,18 @@ function SectionHero() {
           </span>
         </p>
         <div className="social-links">
-          <a href="#" title="Github" className="twitter">
+          <a
+            href="https://github.com/guilherme273"
+            title="Github"
+            className="twitter"
+          >
             <Github size={23} />
           </a>
-          <a title="Linkedin" href="#" className="facebook">
+          <a
+            title="Linkedin"
+            href="www.linkedin.com/in/guilherme-cunha-249529262"
+            className="facebook"
+          >
             <Linkedin size={23} />
           </a>
           <a href="#" className="instagram">
