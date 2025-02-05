@@ -99,7 +99,7 @@
   font-weight: bold;
   border-radius: 10px;
   width: 100%;
-  color: #0d6dfd;
+  color: rgb(219, 219, 219);
   cursor: pointer;
   font-weight: bold;
   font-size: 14px;
@@ -112,6 +112,6 @@
 }
 
 .section-projects .card-project .content-project .button-project:hover {
-  background: #0d6dfd;
-  color: white;
+  background: rgb(8, 8, 8);
+  color: rgb(219, 219, 219);
 }

@@ -54,6 +54,7 @@
 
 .header .navbar ul li a span {
   display: none;
+  color: rgb(219, 219, 219);
 }
 .header .navbar ul li a:hover span {
   display: inline;

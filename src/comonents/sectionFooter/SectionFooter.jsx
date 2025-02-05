@@ -5,9 +5,8 @@ function SectionFooter() {
     <>
       <section className="section-footer fade-in">
         <p>
-          &ldquo;O sucesso não é a chave para a felicidade. A felicidade é a
-          chave para o sucesso. Se você ama o que faz, você vai ter
-          sucesso.&rdquo; - Albert Schweitzer
+          &ldquo;A tecnologia não é apenas uma ferramenta. Ela pode liberar o
+          potencial humano para transformar o mundo.&rdquo; - Tim Berners-Lee
         </p>
       </section>
     </>
