@@ -25,7 +25,7 @@ function Header() {
 
   return (
     <>
-    <button onClick={ShowOrToHide} className="button-bobile-header"><AlignJustify /></button>
+    <button onClick={ShowOrToHide} className="button-bobile-header"><AlignJustify  size={30} /></button>
     <header className={classMobile}>
       <nav className="navbar">
         <ul>

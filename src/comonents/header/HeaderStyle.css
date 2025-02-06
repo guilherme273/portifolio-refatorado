@@ -96,8 +96,14 @@
   border-radius: 100%;
   padding: 3px;
   color: #0d6dfd;
-  margin: 0.4rem;
+  margin: 1rem;
   display: inline;
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 6px 12px #0d6dfd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header {
 
@@ -122,7 +128,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   padding: 15px;
-  border-radius: 15px;
+  
   background-color: #000000;
   display: flex;
   align-items: center;
@@ -144,7 +150,7 @@
   gap: 0.5rem;
   list-style-type: none;
   padding: 0;
-  margin: 0;
+  margin-top: 3rem;
 }
 
 .header-inline .navbar ul li a span {
@@ -152,14 +158,13 @@
   color: rgb(219, 219, 219);
 }
 .header-inline .navbar ul li a:hover span {
-  display: inline;
-  transition: transform 2s ease;
+  transition: transform 0.7s ease;
+  transform: scale(1.2);
 }
-.header-inline .navbar ul li a:hover {
-  border-radius: 25px;
-}
-.header-inline .navbar ul li a:hover .icon {
-  color: aliceblue;
+
+.header-inline .navbar ul li a:hover .iconicon {
+  transition: transform 0.7s ease;
+  transform: scale(1.2);
 }
 .header-inline .navbar ul li a .icon {
   color: black;
