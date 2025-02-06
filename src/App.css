@@ -48,3 +48,40 @@ html {
     0
   ); /* Reverte a transformação, fazendo com que o item fique no lugar */
 }
+
+
+
+
+@media (max-width: 319px) {
+  .body {
+   max-width: 319px;
+   font-family: "Open Sans", sans-serif;
+   color: #272829;
+   background-color: black;
+  }
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .body {
+    max-width: 480px;
+    min-width: 320px;
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    background-color: black;
+   }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .body {
+    max-width: 768px;
+    min-width: 481px;
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+    background-color: black;
+   }
+}
+
+/* Para telas grandes (769px até 1024px) */
+

@@ -1,4 +1,5 @@
 import {
+  AlignJustify,
   BookText,
   EqualApproximately,
   GraduationCap,
@@ -6,10 +7,26 @@ import {
   Mail,
 } from "lucide-react";
 import "./HeaderStyle.css";
+import { useState } from "react";
 
 function Header() {
+  const [show, setShow] = useState(false);
+  const [classMobile, setClassMobile] = useState('header');
+
+
+  const ShowOrToHide = () => {
+    setShow(!show);
+    if(show){
+      setClassMobile('header-inline');
+    } else {
+      setClassMobile('header');
+    }
+  }
+
   return (
-    <header className="header">
+    <>
+    <button onClick={ShowOrToHide} className="button-bobile-header"><AlignJustify /></button>
+    <header className={classMobile}>
       <nav className="navbar">
         <ul>
           <li>
@@ -50,6 +67,7 @@ function Header() {
         </ul>
       </nav>
     </header>
+    </>
   );
 }
 
