@@ -66,18 +66,17 @@
 /* Para telas pequenas (320px até 480px) */
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
-    min-width: 320px;
-    max-width: 480px;
+    width: 100%;
     background-size: cover;
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: start;
- 
+    align-items: center;
     background-color: rgba(27, 28, 29, 0.137);
   }
   .hero .div-hero {
-    width: 100%;
+    width: 92%;
     display: flex;
     flex-direction: column;
   margin-top: 40%;
@@ -85,13 +84,19 @@
     gap: 1rem;
 
   }
+  .hero .div-hero .typed-p {
+font-size: 20px;
+
+  }
+
   .hero h1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 56px;
     color: rgb(219, 219, 219);
     text-align: center;
+    width: 100%;
   }
   
   .hero p {
