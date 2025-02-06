@@ -1,7 +1,7 @@
 .hero {
   width: 100%;
   height: 100vh;
-  background: url("/img/code-8779051_1280\ \(1\).png") top right no-repeat;
+  
   background-size: cover;
   position: relative;
   display: flex;
@@ -56,3 +56,72 @@
 .hero .social-links a:hover {
   color: #0563bb;
 }
+
+
+
+@media (max-width: 319px) {
+
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .hero {
+    min-width: 320px;
+    max-width: 480px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(27, 28, 29, 0.137);
+  }
+  .hero .div-hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .hero h1 {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: rgb(219, 219, 219);
+  }
+  
+  .hero p {
+    color: #45505b;
+    margin: 15px 0 0 0;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .hero p span {
+    color: #0563bb;
+    letter-spacing: 1px;
+  }
+  
+  .hero .social-links {
+    margin-top: 30px;
+  }
+  
+  .hero .social-links a {
+    font-size: 24px;
+    display: inline-block;
+    color: rgb(219, 219, 219);
+    line-height: 1;
+    margin-right: 20px;
+    transition: 0.3s;
+  }
+  
+  .hero .social-links a:hover {
+    color: #0563bb;
+  }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+   }

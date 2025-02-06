@@ -48,7 +48,7 @@ function App() {
     <>
       <section className="body">
         <Header />
-        {/* <SectionHero /> */}
+        <SectionHero />
         {/* <div className="section-content-all"> */}
           {/* <SectionAbout /> */}
           {/* <SectionSkills /> */}

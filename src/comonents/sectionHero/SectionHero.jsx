@@ -3,6 +3,17 @@ import "./SectionHeroStyle.css";
 import Typed from "typed.js";
 import { Facebook, Github, Instagram, Linkedin, Twitch } from "lucide-react";
 function SectionHero() {
+
+  const img = {
+    backgroundImage: "url('/img/code-8779051_1280.png')",
+    backgroundSize: "cover", // Ajusta a imagem para cobrir todo o espaço
+    backgroundPosition: "center", // Centraliza a imagem
+    backgroundRepeat: "no-repeat", // Evita repetições
+    width: "100%", // Garante que o div ocupe toda a largura
+    minHeight: "100vh", // Garante que ocupe toda a altura da tela
+  };
+  
+
   useEffect(() => {
     const options = {
       strings: ["Desenvolvimento Web", "Front end", "Back end"],
@@ -22,7 +33,7 @@ function SectionHero() {
     };
   }, []);
   return (
-    <section id="hero" className="hero fade-in">
+    <section id="hero" className="hero fade-in" style={img}>
       <div className="div-hero">
         <h1>Guilherme Feitosa Cunha</h1>
         <p className="typed-p">
