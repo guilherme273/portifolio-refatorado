@@ -67,8 +67,6 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
     width: 100%;
-    background-size: cover;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -76,13 +74,15 @@
     background-color: rgba(27, 28, 29, 0.137);
   }
   .hero .div-hero {
-    width: 92%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-  margin-top: 40%;
-    align-items: center;
-    gap: 1rem;
 
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 40%;
+    margin-left: 0;
   }
   .hero .div-hero .typed-p {
 font-size: 20px;
@@ -92,11 +92,9 @@ font-size: 20px;
   .hero h1 {
     margin: 0;
     font-size: 40px;
-    font-weight: 700;
-    line-height: 56px;
     color: rgb(219, 219, 219);
     text-align: center;
-    width: 100%;
+    width: auto;
   }
   
   .hero p {

@@ -9,8 +9,6 @@ function SectionHero() {
     backgroundSize: "cover", // Ajusta a imagem para cobrir todo o espaço
     backgroundPosition: "center", // Centraliza a imagem
     backgroundRepeat: "no-repeat", // Evita repetições
-    width: "100%", // Garante que o div ocupe toda a largura
-    minHeight: "100vh", // Garante que ocupe toda a altura da tela
   };
   
 
