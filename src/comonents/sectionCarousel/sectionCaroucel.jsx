@@ -11,7 +11,7 @@ function SectionCarousel() {
       urlIMG: "/img/g-flix.png",
       description:
         "Projedo desenvolvido e inspirado em plataformas de streaming, com integração de vídeos do YouTube. No front-end, utilizei React com HTML e CSS puro, enquanto o back-end foi construído com Node.js, com interação com banco de dados para gerenciar dados dos usuários e preferências. O sistema conta com autenticação JWT para login seguro, gerando tokens armazenados no localStorage, além de registro de usuários protegido por criptografia com bcrypt. Inclui funcionalidades como curtir vídeos, gerenciar uma aba de favoritos personalizada para cada usuário, e foi desenvolvido utilizando diversos hooks para formulários, rotas, pesquisa e manipulação de elementos.",
-      urlProject: "https://jogo-palavra-react.vercel.app/",
+      urlProject: "https://g-flix-zeta.vercel.app/",
     },
     {
       title: "Jogo da Palavra",

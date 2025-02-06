@@ -41,7 +41,7 @@ function SectionHero() {
           </a>
           <a
             title="Linkedin"
-            href="www.linkedin.com/in/guilherme-cunha-249529262"
+            href="https://linkedin.com/in/guilherme-cunha-249529262"
             className="facebook"
           >
             <Linkedin size={23} />
