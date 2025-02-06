@@ -48,24 +48,24 @@ function App() {
     <>
       <section className="body">
         <Header />
-        <SectionHero />
-        <div className="section-content-all">
-          <SectionAbout />
-          <SectionSkills />
-          <SectionExperiences />
+        {/* <SectionHero /> */}
+        {/* <div className="section-content-all"> */}
+          {/* <SectionAbout /> */}
+          {/* <SectionSkills /> */}
+          {/* <SectionExperiences /> */}
           {/* <Certificates /> */}
-          <SectionCarousel />
-          <SectionContact />
-          <SectionFooter />
+          {/* <SectionCarousel /> */}
+          {/* <SectionContact /> */}
+          {/* <SectionFooter /> */}
           {/* <ViewPdf /> */}
-        </div>
-
-        <div className="div-button-up">
-          <button onClick={scrollToTop} className="button-up">
-            <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} />
-          </button>
-        </div>
-        <ToastContainer />
+        {/* </div> */}
+{/*  */}
+        {/* <div className="div-button-up"> */}
+          {/* <button onClick={scrollToTop} className="button-up"> */}
+            {/* <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} /> */}
+          {/* </button> */}
+        {/* </div> */}
+        {/* <ToastContainer /> */}
       </section>
     </>
   );
