@@ -30,7 +30,7 @@ function App() {
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection, {
-      threshold: 0.5, // O elemento será considerado visível quando 50% dele aparecer na tela
+      threshold: 0.3, // O elemento será considerado visível quando 50% dele aparecer na tela
     });
 
     // Selecione todos os elementos com a classe "fade-in" e inicie a observação
@@ -55,17 +55,17 @@ function App() {
           <SectionExperiences />
           {/* <Certificates /> */}
           <SectionCarousel />
-          {/* <SectionContact /> */}
-          {/* <SectionFooter /> */}
+          <SectionContact />
+          <SectionFooter />
           {/* <ViewPdf /> */}
         </div>
 
-        {/* <div className="div-button-up"> */}
-          {/* <button onClick={scrollToTop} className="button-up"> */}
-            {/* <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} /> */}
-          {/* </button> */}
-        {/* </div> */}
-        {/* <ToastContainer /> */}
+        <div className="div-button-up">
+          <button onClick={scrollToTop} className="button-up">
+            <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} />
+          </button>
+        </div>
+        <ToastContainer />
       </section>
     </>
   );

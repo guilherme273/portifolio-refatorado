@@ -12,3 +12,31 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 319px) {
+
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-footer {
+    background-color: #1e1e1f;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.0rem; /* Ajuste o tamanho conforme necessário */
+    letter-spacing: 1px; /* Adiciona um pequeno espaçamento */
+    font-weight: normal;
+    color: rgb(219, 219, 219); /* Cor suave para não pesar no visual */
+    text-align: center;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+   }
+

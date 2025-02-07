@@ -146,14 +146,14 @@
     color: rgb(219, 219, 219);
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 15px;
     text-align: start;
   }
   .span-about {
     color: rgb(219, 219, 219);
     font-family: "Lato", sans-serif;
     margin-left: 0;
-    font-size: 11px;
+    font-size: 15px;
     text-align: start;
     margin-left: 5px;
   }
@@ -161,7 +161,8 @@
     color: rgb(219, 219, 219);
     font-family: "Roboto", sans-serif;
     padding: 0;
-    font-size: 11px;
+    font-size: 15px;
+    text-align: justify;
   }
 }
 

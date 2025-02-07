@@ -178,3 +178,120 @@
   font-size: 11px;
   color: rgba(255, 0, 0, 0.534);
 }
+
+
+
+@media (max-width: 319px) {
+
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-contact .contact .info {
+    display: none;
+    width: 40%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: start;
+  }
+  .section-contact .contact .form-contact {
+    width: 100%;
+  }
+  .section-contact .contact .form-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .section-contact .contact .form-contact form .btn {
+    outline: none;
+    background: black;
+    border: 1px solid #0d6dfd;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .section-contact .contact .form-contact form .btn:hover {
+    background-color: rgb(8, 8, 8);
+  }
+  .section-contact .contact .form-contact form .disabled {
+    outline: none;
+    background: #0d6dfd2f;
+    border: 0.5px solid #0d6dfd34;
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .section-contact .contact .form-contact form .disabled:hover {
+    outline: none;
+    background: #0d6dfd2f;
+    border: 0.5px solid #0d6dfd34;
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: no-drop;
+  }
+  
+  .section-contact .contact .form-contact form .twoitens {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .section-contact .contact .form-contact form .twoitens div {
+    width: 47%;
+  }
+  .section-contact .contact .form-contact form .twoitens div input {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 0.5px solid #0d6dfd8f;
+    outline: none;
+    color: white;
+    background: none;
+    background: none;
+  }
+  .section-contact .contact .form-contact form .div-motivo {
+    width: 100%;
+  }
+  .section-contact .contact .form-contact form .div-motivo input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #0d6dfd8f;
+    outline: none;
+    color: white;
+    background: none;
+    width: 100%;
+  }
+  .section-contact .contact .form-contact form .div-descricao {
+    width: 100%;
+  }
+  .section-contact .contact .form-contact form .div-descricao textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid #0d6dfd8f;
+    outline: none;
+    color: white;
+    background: none;
+    width: 100%;
+    resize: vertical;
+  }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+   }

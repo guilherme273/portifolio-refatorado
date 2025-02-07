@@ -131,11 +131,17 @@
 
 /* Para telas pequenas (320px até 480px) */
 @media (min-width: 320px) and (max-width: 480px) {
+  .cent {
+    display: flex !important;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
   .section-timeline {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     width: 100%;
-  
     justify-content: center;
   }
   .section-timeline .time-left {

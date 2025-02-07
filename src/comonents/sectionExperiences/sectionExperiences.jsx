@@ -3,7 +3,7 @@ function sectionExperiences() {
   return (
     <>
       <div id="academyc-formation" className="cent fade-in">
-        <section className="section-timeline">
+        <section className="section-timeline ">
           <div className="time-left">
             <h2>Formação</h2>
 
