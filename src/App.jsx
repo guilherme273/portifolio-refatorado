@@ -55,17 +55,17 @@ function App() {
           <SectionExperiences />
           {/* <Certificates /> */}
           <SectionCarousel />
-          <SectionContact />
-          <SectionFooter />
+          {/* <SectionContact /> */}
+          {/* <SectionFooter /> */}
           {/* <ViewPdf /> */}
         </div>
 
-        <div className="div-button-up">
-          <button onClick={scrollToTop} className="button-up">
-            <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} />
-          </button>
-        </div>
-        <ToastContainer />
+        {/* <div className="div-button-up"> */}
+          {/* <button onClick={scrollToTop} className="button-up"> */}
+            {/* <ArrowUp color="#0d6dfd" strokeWidth={1} size={30} /> */}
+          {/* </button> */}
+        {/* </div> */}
+        {/* <ToastContainer /> */}
       </section>
     </>
   );

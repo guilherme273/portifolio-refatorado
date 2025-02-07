@@ -124,3 +124,142 @@
   font-size: 15px;
   padding: 8px;
 }
+
+@media (max-width: 319px) {
+
+}
+
+/* Para telas pequenas (320px até 480px) */
+@media (min-width: 320px) and (max-width: 480px) {
+  .section-timeline {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    justify-content: center;
+  }
+  .section-timeline .time-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .section-timeline .time-rigth {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+  }
+  .section-timeline .time-left h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .section-timeline .time-rigth h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .timeline {
+    width: 100%;
+    margin: 0px 50px 50px 50px auto;
+    position: relative;
+  }
+  
+  .timeline::before {
+    display: none;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 2px;
+    height: 90%;
+    background: #0d6efd;
+  }
+  
+  .timeline-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .timeline-point {
+    display: none;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #0d6efd;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    position: absolute;
+    left: 15px;
+    top: 0;
+  }
+  
+  .timeline-content {
+    background-color: #494b4d;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-line-back-g {
+    background-color: #1e1e1f;
+    border: 1px solid #0d6dfdd2;
+    padding: 15px;
+    border-radius: 20px;
+  }
+  .timeline-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: #0d6dfdd2;
+    
+  }
+  
+  .timeline-date {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #727477;
+    padding: 3px;
+    width: fit-content;
+    border-radius: 5px;
+  }
+  
+  .timeline-institution {
+    color: rgb(219, 219, 219);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .timeline-description {
+    color: rgb(219, 219, 219);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    padding: 8px;
+  }
+}
+
+/* Para telas médias (481px até 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+
+   }
+

@@ -135,7 +135,7 @@
   align-items: center;
   justify-content: start;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
   color: #0d6dfd;
   transition: transform 0.7s ease;
   box-shadow: 0 2px 5px #0d6dfd;
