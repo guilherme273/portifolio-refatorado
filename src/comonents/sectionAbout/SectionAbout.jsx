@@ -50,11 +50,7 @@ function SectionAbout() {
                   </span>
                 </li>
 
-                <li className="li-about">
-                  <ChevronRight color="#0d6efd" strokeWidth={2} />
-                  <strong className="strong-about">Data de Nascimento:</strong>
-                  <span className="span-about">1997</span>
-                </li>
+              
               </div>
             </ul>
             <p className="paragrafo-about">

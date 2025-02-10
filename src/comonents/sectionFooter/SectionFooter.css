@@ -22,7 +22,7 @@
   .section-footer {
     background-color: #1e1e1f;
     font-family: "Dancing Script", cursive;
-    font-size: 1.0rem; /* Ajuste o tamanho conforme necessário */
+    font-size: 1rem; /* Ajuste o tamanho conforme necessário */
     letter-spacing: 1px; /* Adiciona um pequeno espaçamento */
     font-weight: normal;
     color: rgb(219, 219, 219); /* Cor suave para não pesar no visual */
