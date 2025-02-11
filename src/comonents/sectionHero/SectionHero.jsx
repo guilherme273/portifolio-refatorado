@@ -14,7 +14,7 @@ function SectionHero() {
 
   useEffect(() => {
     const options = {
-      strings: ["Desenvolvimento Web", "Front end", "Back end"],
+      strings: ["Desenvolvedor Web", "Front end", "Back end"],
       typeSpeed: 90, // Velocidade de digitação
       backSpeed: 30, // Velocidade de apagamento
       backDelay: 1000, // Tempo de espera antes de apagar
@@ -35,7 +35,7 @@ function SectionHero() {
       <div className="div-hero">
         <h1>Guilherme Feitosa Cunha</h1>
         <p className="typed-p">
-          <span className="typed">Desenvolvimento Web</span>
+          <span className="typed">Desenvolvedor Web</span>
           <span className="typed-cursor typed-cursor--blink" aria-hidden="true">
             |
           </span>
